@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+button:focus {
+	outline: 0;
+	outline: 0;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Alfa Slab One', cursive;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header-area{
+    min-height: 850px;
+    padding: 30px;
+}
+.header-right {
+    margin-top: -3%;
+    margin-bottom: 15px;
+  }
+.header-right a{
+    color: #3d2514;
+    font-size: 15px;
+    text-decoration: none;
+}
+.header-right .svg-inline--fa.fa-bicycle {
+	margin-right: 10px;
+	font-size: 20px;
+}
+.header-area ul li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: -15px;
+}
+.header-area ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+
+.header-content{
+    margin-top: 13%;
+}
+
+.header-content p {
+	padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+	border: 2px dashed #3d2514;
+	display: inline;
+}
+.header-content h1 {
+    font-size: 85px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .header-content h3 {
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+
+.header-img img {
+	width: 50%;
+	margin-top: -27%;
+}
+.btn a span {
+	font-size: 40px;
+}
+
+.header-area .btn-area {
+  margin-top: -25%;
+  margin-left: 20%;
+}
+.header-area .btn {
+  border: 2px dotted #fff;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  line-height: 190px;
+  background: red;
+}
+.header-area .btn a {
+text-decoration: none;
+color: #fff;
+font-size: 30px;
+}
+
+.bg-img{
+   width: 100%;
+   height: 100%;
+}
+
+.seceoond-area{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.seceoond-area img{
+    width: 100%;
+}
+.seceoond-area .first-content{
+    position: relative;
+}
+.seceoond-area .first-content h1{
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif;
+    left: 20px;
+    top: 20px;
+    color: #fff;
+    line-height: 35px;
+}
+.seceoond-area .first-content h1 span{
+    font-size: 20px;
+}
+.seceoond-area .first-content.spc {
+	margin-top: 35px;
+}
+
+.seceoond-area .btn a {
+	color: #3d2514;
+	padding: 15px 20px;
+	background: #ffc045;
+	font-size: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.Choose-area h1 {
+    text-transform: uppercase;
+    color: #3d2514;
+  }
+  .Choose-area img{
+    width: 100%;
+  }
+  .Choose-area img.ws {
+	width: 80%;
+ }
+  .Choose-area p {
+    font-size: 15px;
+    color: #3d2514;
+    margin-bottom: 50px;
+  }
+  .Choose-area h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #3d2514;
+    margin-top: 10px;
+}
+.Choose-area .first-content p {
+	text-align: center;
+	font-size: 15px;
+	margin: auto;
+}
+.Choose-area .first-content .btn a{
+    padding: 10px 35px;
+    text-decoration: none;
+    background-color: #bf2222;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.slider-area{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: block;
+}
+.slider-area .slider-img img {
+	width: 100%;
+}
+.slider-area .slider-content h1 {
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #3d2514;
+	margin-bottom: 20px;
+}
+.slider-content p {
+	font-size: 20px;
+	line-height: 35px;
+	text-align: justify;
+}
+
+.slider-area .activ-slider{
+    box-shadow: 18.656px 24.758px 43px 0px rgba(0, 0, 0, 0.17);
+    padding: 30px;
+}
+.slider-area .single-slide{
+    margin: 10px;
+}
+.slider-area .activ-slider .slick-dots {
+	margin-top: -35px;
+	margin-left: -34px;
+}
+.slider-area .slick-dots li{
+    display: inline-block;
+    margin: 0 3px;
+}
+.slider-area .slick-dots li button {
+	font-size: 0;
+	height: 10px;
+	width: 10px;
+	padding: 0;
+	border-radius: 50%;
+    border: 0;
+}
+.slider-area .slick-dots li.slick-active button{
+    background-color: #ffc045;
+}
+
+.form-area{
+    margin:100px 0 ;
+}
+
+.form-area form input {
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 60px;
+  }
+.form-area form button {
+    width: 350px;
+    margin-left: 25px;
+    height: 60px;
+    background: red;
+    color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+  }
+  .form-area p {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #3d2514;
+  }
+  .form-area h1 {
+    text-transform: uppercase;
+    color: #3d2514;
+  }
+
+  .form-area .reg-form{
+    position: relative;
+  }
+  .form-area .reg-image1{
+    position: absolute;
+    top: -120px;
+    left: -15px;
+  }
+  .form-area .reg-imge2 {
+	position: absolute;
+	top: 55px;
+	left: 200px;
+}
+.form-area .reg-imge3 {
+	position: absolute;
+	right: -15px;
+	top: 112px;
+}
+.footer-area{
+    margin: 30px 0;
+}
+.footer-img img {
+	width: 100%;
+}
+
+.footer-area  .footer-wrapper{
+    position: relative;
+}
+.footer-area .footer-content {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+
+.footer-area .footer-content p {
+    color: #fff;
+    margin-top: 40px;
+}
+.footer-area .footer-content span {
+    color: #fff;
+    margin-top: 30%;
+    display: block;
+  }
+
+
+  
+.footer-location {
+    margin-top: 30%;
+    margin-left: 50%;
+  }
+  .footer-location a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+  }
+  .footer-location a i {
+    font-size: 41px;
+  }
+  .footer-location a svg.svg-inline--fa.fa-location-pin{
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .footer-location a .svg-inline--fa.fa-envelope{
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+  .footer-icon {
+	margin-top: 25%;
+	margin-right: 20px;
+    
+}
